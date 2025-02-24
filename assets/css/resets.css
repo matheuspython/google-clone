@@ -1,3 +1,13 @@
+:root{
+    --Yi4Nb: #444746;
+    --pEa0Bc: #bfbfbf;
+    --kloG3: #444746;
+    --YaIeMb: #28292a;
+    --Pa8Wlb: #a8c7fa;
+    --izGsqb: #a8c7fa;
+    --bg: #202124;
+    --p9J9c: #a8c7fa;
+}
 *{
     padding: 0;
     margin: 0;
@@ -6,5 +16,22 @@
   html,body{
     height: 100%;
     font-family: 'Open Sans', sans-serif;
+    background: var(--bg);
   }
- 
+  a{
+    color: #fff;
+    text-decoration: none;
+    font: 13px / 27px Roboto, Arial, sans-serif;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  ul{
+    list-style: none;
+  }
+ .container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+ }
